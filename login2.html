@@ -15,8 +15,9 @@ font-family: 'Numans', sans-serif;
 
 input[type=text], input[type=password] {
   width: 100%;
-  padding: 8px 10px;
-  margin: 8px 0;
+  height: 100%;
+  padding: 11px 7.3px;
+  margin: 9px 10;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -99,6 +100,28 @@ span.psw {
   padding-top: 1%;
 }
 
+.candado{
+  width: 25px;
+  left: 10px;
+  top: 5px;
+  z-index:1;
+}
+
+.usuario{
+  width: 25px;
+  left: 10px;
+  top: 5px;
+  z-index:1;
+}
+
+.input-group-prepend span{
+width: 50px;
+height: 41.5px;
+background-color: white;
+color: #9D9D9B;
+border:0 !important;
+}
+
 .card{
 height: 350px;
 margin-top: auto;
@@ -129,14 +152,20 @@ background-color: #9D9D9B;
         <form>
             <div class="card-body">
 
-                <div>
-                    <input type="text" placeholder="Usuario" name="uname" required>
+                <div class="input-group form-group">
+                    <div class="input-group-prepend">
+                       <span class="input-group-text"><img class="usuario" src="loginFiles/usuario_1.png"></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Usuario" name="uname" required>
                 </div>
-                <div>
-                    <input type="password" placeholder="Contrasena" name="psw" required>
+                <div class="input-group form-group">
+                    <div class="input-group-prepend">
+                       <span class="input-group-text"><img class="candado" src="loginFiles/candado.png"></span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Contrase&ntilde;a" name="psw" required>
                 </div>
                 <div align="center">
-                    <button type="submit" >Ingresar</button>
+                    <button type="submit" >INGRESAR</button>
                 </div>
             </div>
 
@@ -148,7 +177,7 @@ background-color: #9D9D9B;
                             <input class="psw" type="checkbox">Recuerdame
                         </div>
                         <div class= "col-6">
-                            <span class="psw"><a href="#">&iquestOlvido su contrase&ntildea?</a></span>
+                            <span class="psw"><a href="#">&iquestOlvid&oacute su contrase&ntildea?</a></span>
                         </div>
                     </div>
                 
