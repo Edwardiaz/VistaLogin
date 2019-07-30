@@ -1,0 +1,140 @@
+@font-face {
+font-family: "MYRIADPRO-BOLDCOND";
+src: url("fonts/myriad-pro-cufonfonts/MYRIADPRO-BOLDCOND.OTF");
+src:
+url("fonts/myriad-pro-cufonfonts/MYRIADPRO-BOLDCOND.woff") format("woff"),
+url("fonts/myriad-pro-cufonfonts/MYRIADPRO-BOLDCOND.woff") format("eot"),
+url("fonts/myriad-pro-cufonfonts/MYRIADPRO-BOLDCOND.woff") format("svg");
+}
+
+html,body{
+background-color: #E8E7E5;
+height: 100%;
+}
+
+input[type=text], input[type=password] {
+  width: 42.2px;
+  height: 42.2px;
+  padding: 11.6px 0px;
+  margin: 0px 0px 10px;
+  display: inline-block;
+  border: 0px solid #ccc;
+
+  /*box-sizing: border-box;*/
+}
+
+button {
+  background-color: #22B573;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  font-weight: bold;
+  
+}
+
+h3{
+  color: white;
+}
+
+output{
+    color: white;
+}
+
+div.col-6{
+    color: white;
+    
+    font-size: 15px;
+}
+
+a{
+  color:white;
+}
+.startSession{
+  font-size: 20px;
+  font-weight: 500;
+}
+input.usr{
+  font-weight: 600;
+
+}
+
+div.col-5{
+color: white;
+font-weight: bold;
+}
+
+.logo{
+ /* top: 500px;*/
+ font-size: 45px;
+  font-weight: bold;
+  color: white;
+}
+
+.imgBack{
+align-content: center;
+width: 200px;
+height: 150px;
+padding: 500px 100px;
+margin: 24px 0 12px 0;
+
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+img.logoUsr {
+  width: 35%;
+  border-radius: 40%;
+  position:absolute;
+  left: 5px;
+  top: 10px;
+  z-index:1;
+}
+.container {
+    padding: 10px;
+    /*width: 100%;*/
+    height: 100%;
+    align-content: center;
+}
+
+span.psw {
+  float: right;
+  padding-top: 1%;
+}
+
+.candado{
+  width: 17px;
+  left: 10px;
+  top: 4px;
+  z-index:1;
+}
+
+.usuario{
+  width: 17px;
+  left: 10px;
+  top: 5px;
+  z-index:1;
+}
+
+.input-group-prepend span{
+width: 50px;
+height: 42.2px;
+margin: 0px 0px 10px;
+background-color: white;
+color: #9D9D9B;
+border:0px !important;
+}
+
+.card{
+height: 400px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: #9D9D9B;
+border: none;
+}
